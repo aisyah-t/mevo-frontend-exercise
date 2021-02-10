@@ -1,4 +1,16 @@
-# Getting Started with Create React App
+# Mevo Front End Engineer Exercise
+
+## Part 1a. Vehicles on maps
+
+Build a static website (no backend) using React JS that queries the Mevo APIs (specifically the public endpoints ) and displays the position of Mevo vehicles on a map. 
+
+
+## Part 1b. Improving the map
+
+Extend your map from just displaying the Mevo vehicle pins. Feel free to get as creative as you like in the pursuit of making your website more useful or exciting.
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

@@ -1,0 +1,24 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Titillium web',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color:#00afdd;
+}
+
+.App {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: calc(10px + 2vmin);
+    color: black;
+  }
+
+.mapContainer {
+    position: absolute;
+    top: 110px;
+    right: 0;
+    left: 0;
+    bottom: 0
+}
