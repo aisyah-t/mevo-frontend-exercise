@@ -1,10 +1,10 @@
-import Map from "./components/Map"
+import Map from "./components/Map";
 
 const App = () => {
 
-  return (
-    <Map />  
-  );
-}
+	return (
+		<Map />  
+	);
+};
 
 export default App;

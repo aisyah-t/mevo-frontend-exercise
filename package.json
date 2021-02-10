@@ -41,7 +41,10 @@
   },
   "description": "## Part 1a. Vehicles on maps",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-plugin-react": "^7.22.0"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC"
