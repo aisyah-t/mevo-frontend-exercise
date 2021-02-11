@@ -5,7 +5,11 @@ import "@testing-library/jest-dom";
 
 import Map from "./Map";
 
+jest.mock("mapbox-gl", () => <Map />);
+
 describe("components/Map", () => {
+
+
 	it ("renders the correct content", () => {
 		render(<Map />);
 		const heading = screen.getByTestId("nav-bar");

@@ -14,6 +14,7 @@ const Map = () => {
 	const [zoom, setZoom] = useState(11);
 
 	const mapContainer = useRef(null);
+	console.log(mapContainer);
 
 	useEffect(() => {
 		const map = new mapboxgl.Map({

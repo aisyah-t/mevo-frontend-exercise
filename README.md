@@ -4,34 +4,36 @@
 
 Build a static website (no backend) using React JS that queries the Mevo APIs (specifically the public endpoints ) and displays the position of Mevo vehicles on a map. 
 
-
 ## Part 1b: Improving the map
 
 Extend your map from just displaying the Mevo vehicle pins. Feel free to get as creative as you like in the pursuit of making your website more useful or exciting.
-
 
 ## Part 2: Working as a Software Engineer
 In a few paragraphs (or by another method of your choice), tell us about each of the following:
 * What has been your favourite place to work so far? What was it about working there that made it
 your favourite?
 * What’s something that you wish you could have as a part of your job?
-* Reading the introduction to Mevo on our developer site, what makes you the most excited about
+* Reading the [introduction to Mevo](https://developer.mevo.co.nz/) on our developer site, what makes you the most excited about
 the potential of working as a Software Engineer here?
 
-## MVP based on user stories
+## MVP user stories
 As a user I want to:
-* see where the Mevo vehicles are located in Wellington when the page loads.
-* see the Home Zones marked on the map when the page loads.
-* read answers to Part 2 of the exercise in a modal on the same page.
+- [x] see where the Mevo vehicles are located in Wellington on a map when the page loads.
+- [ ] see the Mevo Home Zones marked on the same map when the page loads so I can see where I can leave a Mevo vehicle at the end of my trip.
+- [ ] be able to zoom in and out of the map using the navigation controls as well as by clicking on the map.
+- [ ] find out more information about Mevo and Mevo Home Zones through the navigation bar.
+- [ ] read answers to Part 2 of the exercise through the navigation bar.
 
-## Stretch features based on user stories
+## Stretch features user stories
 As a user I want to:
-* be able to toggle the Home Zones marks on and off on the map.
-* be given navigation directions to a vehicle I click on.
+- [ ] be able to find the closest available Mevo to my current location and get navigation directions to it.
+- [ ] view the map on street view.
 
 ## Tech stack
-* create-react-app
-* Mapbox GLJS
+* [Create React App](https://github.com/facebook/create-react-app)
+* [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js/api/)
+* [Mevo Public API](https://developer.mevo.co.nz/docs/public/introduction)
+* UI: [grommet](https://v2.grommet.io/) - TBC
 * Testing: Jest & React Testing Library
 * Deployment: GitHub pages/Heroku - TBD
 
@@ -40,15 +42,10 @@ As a user I want to:
 * src - JSX components and tests, utility functions and tests and root JSX and JS files.
 
 ## Limitations
-* Non-responsive website - best viewed on desktop
-* Single page web app - navigation options aren't hyperlinks
+* Currently a non-responsive web app - best viewed on desktop.
+* Single page web app - navigation options aren't hyperlinks.
+
 - - - -
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
 
 ### `npm start`
 
