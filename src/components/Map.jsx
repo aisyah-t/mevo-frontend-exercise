@@ -1,42 +1,42 @@
 import { useState, useRef, useEffect } from "react";
-import ReactDOM from "react-dom";
 import mapboxgl from "mapbox-gl";
 
 import vehiclesLocations from "../utils/apis";
-import Nav from "./Nav";
-
-mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
 
 const Map = () => {
+
+	mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
 
 	const [longitude, setLongitude] = useState(174.8);
 	const [latitude, setLatitude] = useState(-41.3);
 	const [zoom, setZoom] = useState(11);
 
 	const mapContainer = useRef(null);
-	console.log(mapContainer);
 
 	useEffect(() => {
+		// Initialise map on page
 		const map = new mapboxgl.Map({
 			container: mapContainer.current,
 			style: "mapbox://styles/mapbox/streets-v11",
 			center: [longitude, latitude],
 			zoom: zoom
 		});
-
+		// Add zoom in and out control to map
 		map.addControl(new mapboxgl.NavigationControl(), "bottom-left");    
-
+		// Add vehicle markers to maps on page load
 		map.on("load", async () => {
 
 			const vehiclesData = await vehiclesLocations();
-			
+		
 			vehiclesData.forEach(vehicle => {
 				const { iconUrl, position } = vehicle;
 
-				const markerNode = document.createElement("div");
-				ReactDOM.render(<img src={iconUrl} className="marker" alt="vehicle location marker" />, markerNode);
-				
-				new mapboxgl.Marker(markerNode)
+				// Create image DOM element for Mevo vehicle marker
+				const vehicleMarkerNode = document.createElement("img");
+				vehicleMarkerNode.className = "marker";
+				vehicleMarkerNode.src = iconUrl;
+			
+				new mapboxgl.Marker(vehicleMarkerNode)
 					.setLngLat([position.longitude, position.latitude])
 					.addTo(map);
 			});
@@ -54,7 +54,6 @@ const Map = () => {
 
 	return (   
 		<>
-			<Nav data-testid="nav-bar" />
 			<div ref={mapContainer} className="map-container"/>
 		</>
 	);
