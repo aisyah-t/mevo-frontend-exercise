@@ -2,6 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import mapboxgl from "mapbox-gl";
 
 import { vehiclesLocations, homeZones } from "../utils/apis";
+import MapLegend from "./MapLegend";
 
 const Map = () => {
 
@@ -22,7 +23,7 @@ const Map = () => {
       zoom: zoom
     });
     // Add zoom in and out control to map
-    map.addControl(new mapboxgl.NavigationControl(), "bottom-left");    
+    map.addControl(new mapboxgl.NavigationControl(), "top-right");    
 		
     map.on("load", async () => {
 
@@ -73,9 +74,10 @@ const Map = () => {
   }, []);
 
   return (   
-    <>
-      <section ref={mapContainer} className="map-container"/>
-    </>
+    <main className="main-container">
+      <div ref={mapContainer} className="map-container"/>
+      <MapLegend />
+    </main>
   );
 };
 

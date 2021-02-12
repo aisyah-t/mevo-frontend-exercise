@@ -5,7 +5,7 @@ const App = () => {
 
   return (
     <>
-      <Nav data-testid="nav-bar" />
+      <Nav />
       <Map />  
     </>
   );
