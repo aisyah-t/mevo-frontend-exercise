@@ -19,15 +19,16 @@ the potential of working as a Software Engineer here?
 ## MVP user stories
 As a user I want to:
 - [x] see where the Mevo vehicles are located in Wellington on a map when the page loads.
-- [ ] see the Mevo Home Zones marked on the same map when the page loads so I can see where I can leave a Mevo vehicle at the end of my trip.
-- [ ] be able to zoom in and out of the map using the navigation controls as well as by clicking on the map.
+- [x] see the Mevo Home Zones marked on the same map when the page loads so I can see where I can leave a Mevo vehicle at the end of my trip.
+- [x] be able to zoom in and out of the map using the navigation controls as well as by clicking/focusing on the map.
+- [x] be able to around the map.
 - [ ] find out more information about Mevo and Mevo Home Zones through the navigation bar.
 - [ ] read answers to Part 2 of the exercise through the navigation bar.
 
 ## Stretch features user stories
 As a user I want to:
 - [ ] be able to find the closest available Mevo to my current location and get navigation directions to it.
-- [ ] view the map on street view.
+- [ ] see the buildings on the map in 3D and as street level view.
 
 ## Tech stack
 * [Create React App](https://github.com/facebook/create-react-app)
