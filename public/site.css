@@ -25,7 +25,7 @@ body {
 }
 
 .marker {
-  width: 1.8rem;
-  height: 2.5rem;
+  width: 30px;
+  height: 41px;
   cursor: pointer;
 }
