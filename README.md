@@ -39,12 +39,20 @@ As a user I want to:
 * Deployment: GitHub pages/Heroku - TBD
 
 ## File structure
-* public - source index.html and CSS files.
-* src - JSX components and tests, utility functions and tests, assets and root JSX and JS files.
+* `public` - source index.html and CSS files.
+* `src` - root JS files.
+* `src\assets` - images and icons.
+* `src\components` - JSX components and tests.
+* `src\utils` - utility functions and tests.
 
 ## Limitations
 * Currently a partially responsive web app.
 * Cross browser functionality not guaranteed.
+
+## Challenges and reflections
+* Getting the app up and running took me a while as I hadn't started a project from scratch in a long time. After several tries with `create-react-app` I and customising the boilerplate I finally got it working.
+* Learning to use Mapbox GLJS with React was a curve and I was mainly referring to the documentation and examples provided to help guide me. I found out too late that there's a `react-mapbox-gl` package so decided to stick with what I had already started. I can see how it's neater and more efficient so I'll use it for my next map project.
+* Spent some time trying to get component test for Map up and running but failed. On Google search it looks like it's a known issue to get Mapbox rendering in tests. If I still can't get tests running by end of Sunday I'll write down the test cases instead.
 
 - - - -
 
