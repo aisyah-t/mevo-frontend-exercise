@@ -74,7 +74,7 @@ const Map = () => {
   }, []);
 
   return (   
-    <main className="main-container">
+    <main>
       <div ref={mapContainer} className="map-container"/>
       <MapLegend />
     </main>
