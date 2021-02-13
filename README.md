@@ -21,30 +21,30 @@ As a user I want to:
 - [x] see where the Mevo vehicles are located in Wellington on a map when the page loads.
 - [x] see the Mevo Home Zones marked on the same map when the page loads so I can see where I can leave a Mevo vehicle at the end of my trip.
 - [x] be able to zoom in and out of the map using the navigation controls as well as by clicking/focusing on the map.
-- [x] be able to around the map.
-- [ ] find out more information about Mevo and Mevo Home Zones through the navigation bar.
-- [ ] read answers to Part 2 of the exercise through the navigation bar.
+- [x] be able to move around the map.
+- [x] find out more information about Mevo (including home zones) through navigation links.
+- [ ] be able to read answers to Part 2 of the exercise through the 'Questions' navigation links.
 
-## Stretch features user stories
+## Stretch user stories - to be worked on in future
 As a user I want to:
-- [ ] be able to find the closest available Mevo to my current location and get navigation directions to it.
-- [ ] see the buildings on the map in 3D and as street level view.
+- [ ] be able to find the closest available Mevo to my current location.
+= [ ] be able to get navigation directions to the closest Mevo.
+- [ ] see the buildings on the map in 3D and in street view.
 
 ## Tech stack
 * [Create React App](https://github.com/facebook/create-react-app)
 * [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js/api/)
 * [Mevo Public API](https://developer.mevo.co.nz/docs/public/introduction)
-* UI: [grommet](https://v2.grommet.io/) - TBC
 * Testing: Jest & React Testing Library
 * Deployment: GitHub pages/Heroku - TBD
 
 ## File structure
-* public - index.html, CSS and other assets.
-* src - JSX components and tests, utility functions and tests and root JSX and JS files.
+* public - source index.html and CSS files.
+* src - JSX components and tests, utility functions and tests, assets and root JSX and JS files.
 
 ## Limitations
-* Currently a non-responsive web app - best viewed on desktop.
-* Single page web app - navigation options aren't hyperlinks.
+* Currently a partially responsive web app.
+* Not guaranteed to work cross browsers. 
 
 - - - -
 

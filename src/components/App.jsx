@@ -1,5 +1,5 @@
-import Nav from "./components/Nav";
-import Map from "./components/Map";
+import Nav from "./Nav";
+import Map from "./Map";
 
 const App = () => {
 

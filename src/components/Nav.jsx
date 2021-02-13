@@ -30,7 +30,7 @@ const Nav = () => {
           <a href="https://mevo.co.nz/wellington/home-zone" target="_blank" rel="noreferrer">Home Zones</a> 
         </li>
         <li className="option" onClick={closeMobileMenu}>
-          <a href="#">Questions</a> 
+          <a href="https://www.notion.so/Mevo-Front-End-Engineer-Exercise-Part-2-Working-as-a-Software-Engineer-e58a2816f877488cace482b8c28d4052" target="_blank" rel="noreferrer">Questions</a> 
         </li>
       </ul>
 
