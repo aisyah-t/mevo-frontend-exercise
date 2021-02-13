@@ -37,7 +37,6 @@ a {
 }
 
 .nav-options {
-  padding-left: 300px;
   display: grid;
   grid-template-columns: 140px 140px 120px;
   gap: 100px;
@@ -49,14 +48,10 @@ a {
   font-weight: 600;
 }
 
-@media (max-width: 1030px) {
+@media (max-width: 770px) {
   /* iPad/larger tablet view */
   .nav-options {
-    padding-left: 40px;
-    display: grid;
-    grid-template-columns: 140px 140px 120px;
     gap: 40px;
-    list-style-type: none;
   }
 }
 
@@ -117,7 +112,7 @@ a {
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
-    z-index: 1;
+    z-index: 3;
     align-content: center;
     padding-left: 0px;
   }

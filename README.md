@@ -28,7 +28,7 @@ As a user I want to:
 ## Stretch user stories - to be worked on in future
 As a user I want to:
 - [ ] be able to find the closest available Mevo to my current location.
-= [ ] be able to get navigation directions to the closest Mevo.
+- [ ] be able to get navigation directions to the closest Mevo.
 - [ ] see the buildings on the map in 3D and in street view.
 
 ## Tech stack
@@ -44,7 +44,7 @@ As a user I want to:
 
 ## Limitations
 * Currently a partially responsive web app.
-* Not guaranteed to work cross browsers. 
+* Cross browser functionality not guaranteed.
 
 - - - -
 

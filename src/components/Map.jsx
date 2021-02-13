@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import mapboxgl from "mapbox-gl";
 
-import { vehiclesLocations, homeZones } from "../utils/apis";
+import { vehiclesUrl, homeZonesUrl, getMevoPublicApi } from "../utils/apis";
 import MapLegend from "./MapLegend";
 
 const Map = () => {
@@ -28,7 +28,7 @@ const Map = () => {
     map.on("load", async () => {
 
       // Add vehicle markers to map on load
-      const vehiclesData = await vehiclesLocations();
+      const vehiclesData = await getMevoPublicApi(vehiclesUrl);
 		
       vehiclesData.forEach(vehicle => {
         const { iconUrl, position } = vehicle;
@@ -44,7 +44,7 @@ const Map = () => {
       });
 
       // Add home zones to map on load
-      const homeZonesData = await homeZones();
+      const homeZonesData = await getMevoPublicApi(homeZonesUrl);
 
       map.addSource("homezones", homeZonesData);
 
