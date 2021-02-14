@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.js": "/mevo-frontend-exercise/static/js/main.2eca4bb6.chunk.js",
+    "main.js.map": "/mevo-frontend-exercise/static/js/main.2eca4bb6.chunk.js.map",
+    "runtime-main.js": "/mevo-frontend-exercise/static/js/runtime-main.dcac9aa8.js",
+    "runtime-main.js.map": "/mevo-frontend-exercise/static/js/runtime-main.dcac9aa8.js.map",
+    "static/js/2.28486073.chunk.js": "/mevo-frontend-exercise/static/js/2.28486073.chunk.js",
+    "static/js/2.28486073.chunk.js.map": "/mevo-frontend-exercise/static/js/2.28486073.chunk.js.map",
+    "index.html": "/mevo-frontend-exercise/index.html",
+    "static/js/2.28486073.chunk.js.LICENSE.txt": "/mevo-frontend-exercise/static/js/2.28486073.chunk.js.LICENSE.txt",
+    "static/js/mapbox-gl-csp-worker.e6a56d58.worker.js": "/mevo-frontend-exercise/static/js/mapbox-gl-csp-worker.e6a56d58.worker.js",
+    "static/js/mapbox-gl-csp-worker.e6a56d58.worker.js.map": "/mevo-frontend-exercise/static/js/mapbox-gl-csp-worker.e6a56d58.worker.js.map",
+    "static/media/close.ba58a094.svg": "/mevo-frontend-exercise/static/media/close.ba58a094.svg",
+    "static/media/mevologo-dark.a6210f42.svg": "/mevo-frontend-exercise/static/media/mevologo-dark.a6210f42.svg",
+    "static/media/snackbar.f99b5ed3.svg": "/mevo-frontend-exercise/static/media/snackbar.f99b5ed3.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dcac9aa8.js",
+    "static/js/2.28486073.chunk.js",
+    "static/js/main.2eca4bb6.chunk.js"
+  ]
+}
