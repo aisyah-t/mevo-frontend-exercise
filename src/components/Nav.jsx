@@ -14,7 +14,7 @@ const Nav = () => {
   return (
     <nav className="header">
 
-      <div className="logo-nav">
+      <div className="logo-nav" data-testid="mevo-logo">
         <div className="logo-container">
           <a href="https://mevo.co.nz/" target="_blank" rel="noreferrer">
             <MevoLogo className="logo" />
@@ -22,7 +22,7 @@ const Nav = () => {
         </div>        
       </div>
       
-      <ul className={click ? "nav-options active" : "nav-options"}>
+      <ul className={click ? "nav-options active" : "nav-options"} data-testid="nav-items">
         <li className="option" onClick={closeMobileMenu}>
           <a href="https://mevo.co.nz/wellington/free-floating" target="_blank" rel="noreferrer">About Mevo</a> 
         </li>
