@@ -59,9 +59,9 @@ As a user I want to:
 
 ## Limitations
 * Cross browsers and devices functionality not guaranteed.
-* Test coverage is limited due to time constraints. I've included to do the test cases in the test files.
+* Test coverage is limited due to time constraints. I've included the to do test cases in the test files.
 
 ## Challenges and reflections
-* Getting the app up and running took me a while as I hadn't started a project from scratch in a long time. After several tries with `create-react-app` I and customising the boilerplate I finally got it working.
-* Learning to use Mapbox GLJS with React was a curve and I was mainly referring to the documentation and examples provided to help guide me. I found out too late that there's a `react-mapbox-gl` package so decided to stick with what I had already started. I can see how it's neater and more efficient so I'll use it for my next map project.
-* Spent some time trying to get component test for Map up and running and failed. On Google search it looks like it's a known issue to get Mapbox rendering in component tests. I'll refer to [this](https://github.com/mapbox/mapbox-gl-js-mock/issues/27) in future.
+* Getting the app up and running took me a while as I hadn't started a project from scratch in a long time. After several tries with `create-react-app` and customising the boilerplate I finally got it working.
+* Learning to use Mapbox GLJS with React was a curve and I was mainly referring to the documentation and examples provided to help guide me. I found out too late that there's a `react-mapbox-gl` package so decided to stick with what I had already started. I can see how it's neater and more efficient and I'll use it for my next map project.
+* Spent some time trying to get a component test for the map up and running and failed multiple times. On further Google search it looks like it's a known issue to get Mapbox maps rendering in component tests. I'll refer to [this](https://github.com/mapbox/mapbox-gl-js-mock/issues/27) in future.
